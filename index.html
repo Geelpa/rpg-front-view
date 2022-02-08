@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Sessão RPG</title>
+</head>
+
+<body>
+    <div class="bg-primary d-flex justify-content-center align-items-center" id="wallpaper">
+        <!-- principal -->
+        <div class="p-2 bg-danger rounded d-inline" style="width: 60vw">
+            <!-- titulo do rpg -->
+            <div id="title" class="">
+                <h1 class="text-center">Yone</h1>
+            </div>
+            <!-- titulo do rpg fim -->
+
+            <!-- registro/combate e pt -->
+            <div id="log" class="d-flex bg-white rounded m-2">
+
+                <!-- registro de combate -->
+                <div id="combat" class="m-2 w-100 d-flex">
+                    <div class="w-100">
+                        <div class="p-1 bg-warning rounded">
+                            <h6 class="text-center w-100 ">Registro de combate</h6>
+                        </div>
+
+                        <!-- resultados: dados e danos -->
+                        <div id="rolls-log" class="bg-warning rounded" style="height:30vh">
+                            <p class="m-2">Geelpa healed 9 on Health potion.</p>
+                            <p class="m-2">Geelpa healed 9 on Health potion.</p>
+
+                        </div>
+                        <!-- resultados: dados e danos fim-->
+
+                        <!-- skills e dados -->
+                        <div class="d-flex mt-2 rounded w-100 ">
+                            <div class="bg-dark rounded d-flex justify-content-center mr-1 w-100 text-center p-1">
+                                <p class="text-light ">D4</p>
+                            </div>
+                            <div class="bg-dark rounded d-flex justify-content-center mr-1 w-100 p-1">
+                                <p class="text-light">D6</p>
+                            </div>
+                            <div class="bg-dark rounded d-flex justify-content-center mr-1 w-100 p-1">
+                                <p class="text-light">D8</p>
+                            </div>
+                            <div class="bg-dark rounded d-flex justify-content-center mr-1 w-100 p-1">
+                                <p class="text-light">D10</p>
+                            </div>
+                            <div class="bg-dark rounded d-flex justify-content-center mr-1 w-100 p-1">
+                                <p class="text-light">D12</p>
+                            </div>
+                            <div class="bg-dark rounded d-flex justify-content-center mr-1 w-100 p-1">
+                                <p class="text-light">D20</p>
+                            </div>
+                            <div class="bg-dark rounded d-flex justify-content-center p-1 w-100">
+                                <p class="text-light">D24</p>
+                            </div>
+
+                        </div>
+                        <!-- skills e dados fim -->
+                    </div>
+                </div>
+                <!-- registro de combatefim -->
+
+
+                <!-- party group -->
+                <div id="party" class="m-2 w-50">
+                    <div class="p-1 d-flex justify-content-center bg-warning rounded">
+                        <h6 class=" text-center">Membros do grupo</h6>
+                    </div>
+                </div>
+                <!-- party group fim -->
+
+            </div>
+            <!-- registro/combate e pt fim -->
+
+
+            <!-- campo de mensagem -->
+            <div class="bg-white d-flex justify-content-between align-items-center rounded m-2 p-2 ">
+                <input type="text" name="" id="" placeholder="Mensagem" class="p-2 rounded ">
+                <span>
+                    <i class="bi bi-arrow-right-circle-fill text-center pr-3"></i>
+                </span>
+            </div>
+            <!-- campo de mensagem  fim-->
+
+        </div>
+        <!-- principal fim -->
+
+    </div>
+</body>
+
+</html>

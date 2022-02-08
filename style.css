@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+p {
+    margin-bottom: 0;
+}
+
+#wallpaper {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://i.pinimg.com/originals/1e/0a/42/1e0a42bd8392c6cdb1d1d0921befd4b4.jpg")
+    center;
+}
