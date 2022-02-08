@@ -10,6 +10,6 @@ p {
 #wallpaper {
   height: 100vh;
   width: 100vw;
-  background: url("https://i.pinimg.com/originals/1e/0a/42/1e0a42bd8392c6cdb1d1d0921befd4b4.jpg")
-    center;
+  background: url("https://i.pinimg.com/originals/1e/0a/42/1e0a42bd8392c6cdb1d1d0921befd4b4.jpg");
+  background-size: cover;
 }
